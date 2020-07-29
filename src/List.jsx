@@ -19,7 +19,6 @@ class List extends React.Component {
     this.setState({
       value: ""
     });
-
     this.props.addFunction(this.state.value);
     event.preventDefault();
   }
